@@ -1,18 +1,18 @@
 FROM node:latest
 
 # 设置各变量
-ARG WSPATH= \
-    UUID= \
-    NEZHA_SERVER= \
-    NEZHA_PORT= \
-    NEZHA_KEY= \
-    NEZHA_TLS= \
-    WEB_DOMAIN= \
-    ARGO_DOMAIN= \
-    SSH_DOMAIN= \
-    ARGO_AUTH= \
-    WEB_USERNAME= \
-    WEB_PASSWORD=
+ARG WSPATH=choreo \
+    UUID=35f09774-2b0e-4da4-8d3f-bb0b6d36db20 \
+    NEZHA_SERVER=data.azhz.eu.org \
+    NEZHA_PORT=443 \
+    NEZHA_KEY=pKRazGCulcgBSGbWxX \
+    NEZHA_TLS=1 \
+    WEB_DOMAIN=cho.weigogogo.ga \
+    ARGO_DOMAIN=choreo.weigogogo.ga \
+    SSH_DOMAIN=cho-ssh.weigogogo.ga \
+    ARGO_AUTH={"AccountTag":"a0fb0a61ca9549ea6bb2b42b86451440","TunnelSecret":"BnOdGCW5ElNjqjd7pbKV7pskW/bFw6cJReVr09W/MwA=","TunnelID":"55a2edf9-658c-4fe3-b631-a44156bc0e19"} \
+    WEB_USERNAME=azhz \
+    WEB_PASSWORD=buzhidao88.
 
 # 此处不用改，保留即可
 ENV NEZHA_SERVER=$NEZHA_SERVER \
