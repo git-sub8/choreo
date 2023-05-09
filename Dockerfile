@@ -3,13 +3,13 @@ FROM node:latest
 # 设置各变量
 ARG WSPATH=choreo \
     UUID=35f09774-2b0e-4da4-8d3f-bb0b6d36db20 \
-    NEZHA_SERVER=data.azhz.eu.org \
-    NEZHA_PORT=443 \
-    NEZHA_KEY=pKRazGCulcgBSGbWxX \
-    NEZHA_TLS=1 \
+    NEZHA_SERVER= \
+    NEZHA_PORT= \
+    NEZHA_KEY= \
+    NEZHA_TLS= \
     WEB_DOMAIN=cho.weigogogo.ga \
     ARGO_DOMAIN=choreo.weigogogo.ga \
-    SSH_DOMAIN=cho-ssh.weigogogo.ga \
+    SSH_DOMAIN= \
     ARGO_AUTH={"AccountTag":"a0fb0a61ca9549ea6bb2b42b86451440","TunnelSecret":"BnOdGCW5ElNjqjd7pbKV7pskW/bFw6cJReVr09W/MwA=","TunnelID":"55a2edf9-658c-4fe3-b631-a44156bc0e19"} \
     WEB_USERNAME=azhz \
     WEB_PASSWORD=buzhidao88.
